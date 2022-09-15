@@ -26,3 +26,11 @@ h3, h4, h5, p {
 h1 {
 font-size: 38px;
 }
+
+.home {
+position: fixed;
+top: 20px;
+right: 10px;
+width: fit-content;
+text-decoration: none;
+}
