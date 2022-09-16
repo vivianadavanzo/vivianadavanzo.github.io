@@ -1,11 +1,9 @@
 .colonna_laterale_container {
-/* Auto layout */
-width: 34%;
+width: 33%;
 height: 100%;
 min-height: 900px;
-/* Altri/Violet */
 background: #9E86FF;
-/* Inside auto layout */
+padding-bottom: 30px; 
 }
 
 .colonna_laterale {
@@ -47,7 +45,6 @@ margin-bottom: -30px;
 h1.nome, h3.sottotitolo {
 color: #EEF6FF;
 letter-spacing: 0.15em;
-font-weight: 800;
 text-align: center;
 }
 
@@ -70,7 +67,6 @@ align-self: stretch;
 
 h2.discipline {
 color: #EEF6FF;
-font-weight: 700;
 letter-spacing: 0.3em;
 }
 
@@ -136,6 +132,6 @@ font-weight: 700;
 text-align: center;
 color: #9E86FF;
 letter-spacing: 0.05em;
-width:fit-content;
+width: fit-content;
 }
 /* fine COLONNA LATERALE*/

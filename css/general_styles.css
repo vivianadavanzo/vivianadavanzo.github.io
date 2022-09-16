@@ -14,23 +14,40 @@ body {
   background: linear-gradient(90deg, white, white, #FFE9F3, #9E86FF);
 }
 
-h1, h2 {
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
-}
-
-h3, h4, h5, p {
-  font-family: 'Montserrat', sans-serif;
-}
-
 h1 {
-font-size: 38px;
-}
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 38px;}
 
-.home {
+h2, h3, h4, h5, p {font-family: 'Montserrat', sans-serif;}
+
+h3, h4, h5, {font-weight: bold;}
+
+p {font-size: 14px; font-weight: normal;}
+
+
+
+
+.menu, .menu:visited {
+display: flex;
+justify-content: center;
+align-items: center;
 position: fixed;
 top: 20px;
 right: 10px;
-width: fit-content;
+border-radius: 50px;
+width: 90px;
+height: 90px;
+background: rgba(158, 134, 255, 0.3);
+transition: 0.3s;
+color: #9E86FF;
+}
+
+.menu:hover {
+justify-content: space-between;
 text-decoration: none;
+color: white;
+width: 50%;
+transition: 0.3s;
+z-index: 1;
 }
