@@ -1,12 +1,12 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html>
   <head>
     <meta charset='UTF-8'/>
     <title>Viviana d'Avanzo Designer</title>
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
-    <link rel='stylesheet' href='css/general_styles.css'/>
-    <link rel='stylesheet' href='css/side_column_styles.css'/>
-    <link rel='stylesheet' href='css/main_column_styles.css'/>
+    <link rel='stylesheet' href='css/styles.css'/>
+    <link rel='stylesheet' href='css/sidebar_styles.css'/>
+    <link rel='stylesheet' href='css/main_styles.css'/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
@@ -15,63 +15,44 @@
     <script src="javascript/javascript.js"></script>
   </head>
   <body>
-    <div class='layout_container'>
+    <div class='header_container'>
+      <div class='menu'>
+        <a href='index.html'><h2 class='menu'>menu</h2><a>
+      </div>
+    </div>
 
-<!-- colonna laterale -->
-      <div class='side_column_container'>
+    <div class='main_container'>
 
-        <div class='side_column'>
-          <div class='fotologo'>
-            <img class='fotoprofilo'src='images/logo.jpg'/>
+      <div class='sidebar'>
+        <div class='foto_container'>
+          <img class='fotoprofilo'src='images/logo.jpg'/>
+        </div>
+
+        <h1 class='nome'>Viviana d'Avanzo</h1>
+        <h3 class='sottotitolo'>Designer Multidisciplinare</h3>
+        <div class='riquadro_discipline'>
+          <div class='righe_discipline'>
+            <h2 class='discipline'>Graphics</h2>
+            <h2 class='discipline'>·</h2>
+            <h2 class='discipline'>Visual</h2>
           </div>
-          <h1 class='nome'>Viviana d'Avanzo</h1>
-          <h3 class='sottotitolo'>Designer Multidisciplinare</h3>
-          <div class='riquadro_discipline'>
-            <div class='righe_discipline'>
-              <h2 class='discipline'>Graphics</h2>
-              <h2 class='discipline'>·</h2>
-              <h2 class='discipline'>Visual</h2>
-            </div>
-            <div class='righe_discipline'>
-              <h2 class='discipline'>2D</h2>
-              <h2 class='discipline'>·</h2>
-              <h2 class='discipline'>3D</h2>
-              <h2 class='discipline'>·</h2>
-              <h2 class='discipline'>Motion</h2>
-            </div>
-            <div class='righe_discipline'>
-              <h2 class='discipline'>Product</h2>
-              <h2 class='discipline'>·</h2>
-              <h2 class='discipline'>Interior</h2>
-            </div>
+          <div class='righe_discipline'>
+            <h2 class='discipline'>2D</h2>
+            <h2 class='discipline'>·</h2>
+            <h2 class='discipline'>3D</h2>
+            <h2 class='discipline'>·</h2>
+            <h2 class='discipline'>Motion</h2>
           </div>
-
-          <div class='lista_buttons'>
-            <div><a class='button' href='cv.html'><h2 class='button_text'>CV</h2></a></div>
-            <div><a class='button' href='portfolio.html'><h2 class='button_text'>portfolio</h2></a></div>
+          <div class='righe_discipline'>
+            <h2 class='discipline'>Product</h2>
+            <h2 class='discipline'>·</h2>
+            <h2 class='discipline'>Interior</h2>
           </div>
-
-          
-          <div class='lista_buttons'>
-            <h4>Contatti</h4>
-            <div><a class='button' href=''><h2 class='button_text'>behance</h2></a></div>
-            <div><a class='button' href='https://www.instagram.com/viviana_davanzo/'><h2 class='button_text'>instagram</h2></a></div>
-            <div><a class='button' href=''><h2 class='button_text'>linkedin</h2></a></div>
-            <div><a class='button' href=''><h2 class='button_text'>email</h2></a></div>
-          </div>
-
         </div>
       </div>
 
-    <!-- main column -->
+<!-- main -->
       <div class='main_column'>
-        <!-- menu -->
-        <div class='menu'>
-          <a href='index.html'><h2 class='menu'>menu</h2><a>
-        </div>
-        <!-- menu END -->
-        <!-- main container -->
-        <div class='main_container'>
           <div class='imgs_container'>
             <img class='portfolio'src='images/1.jpg'/></img>
             <img class='portfolio'src='images/2.jpg'/></img>
@@ -80,10 +61,13 @@
             <img class='portfolio'src='images/5.jpg'/></img>
             <img class='portfolio'src='images/6.jpg'/></img>
           </div>
-        </div>
       </div>
-    </div><!-- FINE layout_container -->
+    </div>
 <!-- footer -->
-    <div class='footer'><h5>© 2022 Designed by Viviana A. M. d'Avanzo</h5></div>
+    <div class='footer_container'>
+      <div class='footer'><h5>© 2022 Designed by Viviana A. M. d'Avanzo</h5>
+      </div>
+    </div>
+<!-- END -->
   </body>
 </html>
