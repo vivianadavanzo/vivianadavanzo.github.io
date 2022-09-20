@@ -1,3 +1,5 @@
+document.getElementById("menu").onclick = function() {myFunction()};
 
-
-document.getElementById("menu").window.open= "menu_open";
+function myFunction() {
+  document.getElementById("menu").innerHTML = "YOU CLICKED ME!";
+}

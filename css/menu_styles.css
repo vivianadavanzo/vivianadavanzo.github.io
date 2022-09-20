@@ -1,0 +1,57 @@
+
+/* MENU */
+.menu, .menu:visited {
+display: flex;
+justify-content: center;
+align-items: center;
+position: fixed;
+top: 20px;
+right: 10px;
+border-radius: 50px;
+width: 90px;
+height: 90px;
+background: rgba(158, 134, 255, 0.3);
+transition: 0.3s;
+color: #9E86FF;
+z-index: 1;
+}
+
+.menu_open{
+justify-content: space-around;
+align-items: flex-start;
+text-decoration: none;
+color: white;
+width: 300px;
+height: 300px;
+transition: 0.3s;
+z-index: 1;
+}
+
+
+h2.menu_item {
+justify-content: space-around;
+align-items: flex-start;
+text-decoration: none;
+color: white;
+width: 20%;
+height: 50%;
+transition: 0.3s;
+z-index: 1;
+}
+
+.menu_item {
+justify-content: space-around;
+align-items: flex-start;
+text-decoration: none;
+color: white;
+transition: 0.3s;
+z-index: 1;
+}
+
+
+
+
+
+closeButton
+
+icon-close
