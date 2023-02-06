@@ -11,7 +11,9 @@ body {
   background-repeat: repeat;
   display: flex;
   flex-direction: column;
+  align-self: center;
   align-items: stretch;
+  justify-content: center;
 }
 
 h1, h2, h3, h4, h5, p {
@@ -19,12 +21,12 @@ h1, h2, h3, h4, h5, p {
 }
 
 
-h1 {font-size: 2.5rem; }
+h1 {font-size: 2.7rem; }
 h2 {font-size: 1.4rem;}
 h3 {font-size: 1.2rem;}
-h4 {font-size: 1.1rem;}
-h5 {font-size: 1rem; font-weight: 600;}
-p {font-size: 0.8rem; font-weight: normal;}
+h4 {font-size: 1.12rem;}
+h5 {font-size: 1.1rem; font-weight: 600;}
+p {font-size: 1rem; font-weight: normal;}
 
 
 .header_container {
@@ -36,7 +38,7 @@ p {font-size: 0.8rem; font-weight: normal;}
 .main_container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
 }
 
@@ -61,7 +63,8 @@ p {font-size: 0.8rem; font-weight: normal;}
 align-self: center;
 background-color: #f8f8ff;
 width: 800px;
-padding-bottom: 20px;
+margin: 10px;
+padding-bottom: 25px;
 box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -71,7 +74,8 @@ width: 33.33%;
 min-width: 320px;
 max-width: 680px;
 height: fit-content;
-padding-bottom: 20px;
+margin: 10px;
+padding-bottom: 25px;
 box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
@@ -84,7 +88,7 @@ box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
   padding-bottom: 30px;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1100px) {
   .sidebar, .index_mainbox{
     width: 100%;
     align-self: center;
@@ -122,6 +126,9 @@ box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);}
 
 .button:active {
 opacity: 0.6;
+}
+
+h2.button_text { font-size: 1.8rem;
 }
 
 /* end BUTTONS*/
@@ -188,18 +195,19 @@ align-items: flex-start;
 width: 66.66%;
 height: 100%;
 max-width: 1280px;
+padding-left: 5px;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1100px) {
   .main_container {flex-direction: column;
     align-items: center; }
   .main_column {width: 100%;}
-  .main_column_cv {width: 80%; align-self: center;}
+  .main_column_cv {width: 90%; align-self: center;}
   .main_column_home {width: fit-content; align-self: center;}
 }
 
-@media screen and (max-width: 980px) {
-  .main_column_cv {width: 100%}
+@media screen and (max-width: 1000px) {
+  .main_column_cv {width: 100%; align-self: center;  justify-content: center;}
 }
 
 
@@ -340,11 +348,11 @@ justify-content: space-between;
 padding-top: 5px;
 }
 
-.skill_name {width: 32%; font-weight: 700; font-size: 1.11em; text-align: right;}
+.skill_name {width: 35%; font-weight: 700; text-align: right;}
 
 .skill_bar {
   display: flex;
-  width: 66%;
+  width: 63%;
   height: 1.2em;
   background: white;
   border: 2px solid rgb(102, 102, 102);

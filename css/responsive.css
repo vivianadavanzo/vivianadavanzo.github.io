@@ -1,17 +1,17 @@
 html {font-size:100%;}
 
 @media (max-width: 640px) {
-body {font-size:1.2rem;}
+body {font-size:1.0rem;}
 }
 
 @media (min-width: 641px) {
-body {font-size:1.2rem;}
+body {font-size:1.1rem;}
 }
 
 @media (min-width:960px) {
-body {font-size:1rem;}
+body {font-size:1.1rem;}
 }
 
 @media (min-width:1100px) {
-body {font-size:1rem;}
+body {font-size:1.2rem;}
 }
