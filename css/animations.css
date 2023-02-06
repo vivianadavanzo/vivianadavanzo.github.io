@@ -1,0 +1,41 @@
+
+
+.skillbar-transf-100,
+.skillbar-transf-95,
+.skillbar-transf-87,
+.skillbar-transf-70,
+.skillbar-transf-60,
+.skillbar-transf-50,
+.skillbar-transf-40,
+.skillbar-transf-30,
+.skillbar-transf-20 {
+  width: 0px;
+  height: 100%;
+  border-radius: 6px;
+  align-self: center;
+  background-image: linear-gradient(90deg, #5C45B9, #e6e6fa);
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+
+.skillbar-transf-100 {animation-name: transf100;}
+.skillbar-transf-95 {animation-name: transf95;}
+.skillbar-transf-87 {animation-name: transf87;}
+.skillbar-transf-70 {animation-name: transf70;}
+.skillbar-transf-60 {animation-name: transf60;}
+.skillbar-transf-50 {animation-name: transf50;}
+.skillbar-transf-40 {animation-name: transf40;}
+.skillbar-transf-30 {animation-name: transf30;}
+.skillbar-transf-30 {animation-name: transf20;}
+
+
+@keyframes transf100 { from {width: 0%;} to {width: 100%;} }
+@keyframes transf95 { from {width: 0%;} to {width: 95%;} }
+@keyframes transf87 { from {width: 0%;} to {width: 87%;} }
+@keyframes transf70 { from {width: 0%;} to {width: 70%;} }
+@keyframes transf60 { from {width: 0%;} to {width: 60%;} }
+@keyframes transf50 { from {width: 0%;} to {width: 50%;} }
+@keyframes transf40 { from {width: 0%;} to {width: 40%;} }
+@keyframes transf30 { from {width: 0%;} to {width: 30%;} }
+@keyframes transf20 { from {width: 0%;} to {width: 20%;} }
