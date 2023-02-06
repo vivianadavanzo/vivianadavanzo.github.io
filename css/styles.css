@@ -25,8 +25,8 @@ h1 {font-size: 2.7rem; }
 h2 {font-size: 1.4rem;}
 h3 {font-size: 1.2rem;}
 h4 {font-size: 1.12rem;}
-h5 {font-size: 1.1rem; font-weight: 600;}
-p {font-size: 1rem; font-weight: normal;}
+h5 {font-size: 1rem; font-weight: 600;}
+p {font-size: 0.9rem; font-weight: normal;}
 
 
 .header_container {
@@ -125,6 +125,11 @@ opacity: 0.6;
 }
 
 h2.button_text { font-size: 1.5rem;
+}
+h2.button_text_special {
+  font-size: 1.55rem;
+  text-shadow: 2px 2px 4px #FFFF76,
+               -1px -1px 4px #E2B2FF;
 }
 
 /* end BUTTONS*/
