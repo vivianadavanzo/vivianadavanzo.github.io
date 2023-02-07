@@ -49,13 +49,14 @@ p {font-size: 0.9rem; font-weight: normal;}
   align-items: flex-start;
 }
 
-.footer_container {
+.footer_container, .footer {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   padding: 1em;
   width: 100%;
+  grid-gap: 10px;
 }
 
 /* SIDEBAR & index_mainbox */
@@ -91,48 +92,6 @@ box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
   }
 }
 
-/* BUTTONS */
-.buttons_list {
-width: 80%;
-display: flex;
-flex-direction: column;
-align-items: center;
-gap: 1em;
-}
-
-.button, .button:link, .button:visited {
-width: 100%;
-color: black;
-text-decoration: none;
-text-align: center;
-background-color: white;
-box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
-border-radius: 15px;
-padding: 10px 15px 14px 15px;
-transition-duration: 0.1s;
-letter-spacing: 0.05em;
-font-weight: 600;
-font-size: 1.1em;
-}
-
-.button:hover {
-color: #6a5acd;
-background: #e6e6fa	;
-box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.5);}
-
-.button:active {
-opacity: 0.6;
-}
-
-h2.button_text { font-size: 1.5rem;
-}
-h2.button_text_special {
-  font-size: 1.55rem;
-  text-shadow: 2px 2px 4px #FFFF76,
-               -1px -1px 4px #E2B2FF;
-}
-
-/* end BUTTONS*/
 
 
 /* IDENTIKIT */
@@ -233,9 +192,10 @@ padding-left: 20px;
 width: 100%;
 display: flex;
 flex-direction: row;
-grid-gap: 10px;
-padding: 5px;
+margin-top: 8px;
+padding-bottom: 20px;
 align-items: flex-start;
+grid-gap: 8px;
 }
 
 @media screen and (max-width: 640px) {
@@ -247,15 +207,14 @@ align-items: flex-start;
 width: 320px;
 display: flex;
 flex-direction: row;
-grid-gap: 10px;
-align-items: flex-start;
+grid-gap: 8px;
+align-items: center;
 }
 
 .item{
 width: 100%;
 display: flex;
 flex-direction: column;
-justify-content: center;
 }
 
 img.item {
