@@ -27,6 +27,7 @@ width: 32%;
 height: 32%;
 margin: 4px;
 color: black;
+align-items: center;
 text-decoration: none;
 text-align: center;
 box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.5);
@@ -50,8 +51,8 @@ opacity: 0.8;
 
 h2.button_link_text {
   font-size: 3rem;
-  margin-top: -200px;
-  margin-bottom: 130px;
+  margin-top: -240px;
+  margin-bottom: 170px;
   z-index: 2;
   position: relative;
 }
@@ -81,7 +82,8 @@ filter: opacity(40%);
     margin-right: 2px;
     margin-bottom: 8px}
   h2.button_link_text {
-    font-size: 2.8rem;}
+    font-size: 2.8rem;
+}
   img.gallery-bis {
     margin-bottom: 11px;
     }
@@ -96,9 +98,9 @@ filter: opacity(40%);
     flex-direction: column;
     width: 100%; height: 100%;}
   h2.button_link_text {
-    font-size: 3.4rem;
-    margin-top: -210px;
-    margin-bottom: 140px; }
+    font-size: 3.8rem;
+    margin-top: -238px;
+    margin-bottom: 160px; }
  img.gallery-bis {
     margin-bottom: 0px;
 }
