@@ -29,21 +29,18 @@
 
     <div class='main_container'>
 <!-- main -->
-      <div class='index_mainbox'>
+      <div class='mainbox'>
+        <div class='main_content'>
 
-        <div class='sidebar_content'>
           <div class='foto_container'>
             <img class='fotoprofilo'src='images/profilo.jpg'/>
             <img class='logo'src='images/logo.png'/>
           </div>
 
-          <h1 class='nome'>Viviana d'Avanzo</h1>
+          <h1 id='nomecognome'>Viviana d'Avanzo</h1>
           <h2 class='sottotitolo'>Designer Multidisciplinare</h2>
-        </div>
 
-  <!-- START CV_main-->
-        <div class='sidebar_content'>
-
+<!-- START CV intro-->
           <h1 class='qualifica'>Graphic & Product Designer</h1>
           <h2 class='qualifica'>... tutor, coach e counselor in formazione</h2>
 
@@ -61,13 +58,14 @@
             </div>
           </div>
 
-          <div class='cv_container'>
+<!-- START CV_ tutte le section-->
+        <div class='cv_container'>
 
              <div class='cv-section'>
                <h2 class='section_name'>Istruzione base (Architettura e Design)</h2>
                <div class='item_box'>
                  <div class='item_title'>
-                   <img class='item' src='images/poliba.png'/>
+                   <img class='item' src='images/cv_loghi/poliba.png'/>
                    <h3 class='item_name'>Politecnico di Bari</h3>
                  </div>
                  <div class='item'>
@@ -79,11 +77,13 @@
                </div>
              </div>
 
+<!-- DESIGN: Graphics, Product, Crafting-->
              <div class='cv-section'>
                <h2 class='section_name'>DESIGN: Graphics, Product, Crafting...</h2>
+
                <div class='item_box'>
                  <div class='item_title'>
-                   <img class='item' src='images/logo.jpg'/>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
                    <h3 class='item_name'>Web Graphic Designer Freelance</h3>
                  </div>
                  <div class='item'>
@@ -94,18 +94,19 @@
                </div>
                <div class='item_box'>
                  <div class='item_title'>
-                   <img class='item' src='images/mandorluna.png'/>
+                   <img class='item' src='images/cv_loghi/mandorluna.png'/>
                    <h3 class='item_name'>Mandorluna</h3>
                  </div>
                  <div class='item'>
                    <h4>Founder, Art Director & Crafter</h4>
                    <h5>A small business brand of handcrafted jewellery</h5>
                    <p>(since 2020)</p>
+                   <p>IG:<a class='small-link' href='https://www.instagram.com/mandorluna.lab/' target="_blank">@mandorluna.lab</a></p>
                  </div>
                </div>
                <div class='item_box'>
                  <div class='item_title'>
-                   <img class='item' src='images/logo.jpg'/>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
                    <h3 class='item_name'>Maker & 3D-Printing Freelance</h3>
                  </div>
                  <div class='item'>
@@ -116,12 +117,13 @@
                </div>
              </div>
 
+<!-- Formazione Supplementare Trasversale-->
              <div class='cv-section'>
                <h2 class='section_name'>Formazione Supplementare Trasversale</h2>
 
-                 <div class='item_box'>
+                 <div class='item_box'> <!-- ASPIC Bari-->
                    <div class='item_title'>
-                     <img class='item' src='images/logo.jpg'/>
+                     <img class='item' src='images/cv_loghi/logo-generico.svg'/>
                      <h3 class='item_name'>ASPIC Bari</h4></h3>
                      </div>
                       <div class='item'>
@@ -131,9 +133,9 @@
                       </div>
                  </div>
 
-                 <div class='item_box'>
+                 <div class='item_box'> <!-- WOOM-->
                    <div class='item_title'>
-                     <img class='item' src='images/logo.jpg'/>
+                     <img class='item' src='images/cv_loghi/logo-generico.svg'/>
                      <h3 class='item_name'>WOOM Italia</h4></h3>
                      </div>
                       <div class='item'>
@@ -143,33 +145,51 @@
                       </div>
                  </div>
 
-               <div class='item_box'>
+                <div class='item_box'> <!--Porta Futuro-->
+                  <div class='item_title'>
+                    <img class='item' src='images/cv_loghi/logo-generico.svg'/>
+                    <span><h3 class='item_name'>Porta Futuro</h3>
+                    <p class='item_name'>Bari</p></span>
+                  </div>
+                  <div class='item'>
+                    <h4>• Business Model Canvas</h4>
+                    <h5 style="padding-bottom: 5px">Elementi di Progettazione Culturale con Bertram Niessen, Federica Vittori, Marilù Manta</h5>
+                    <h4>• Il Business Model Canvas </h4>
+                    <h5 style="padding-bottom: 5px">Gestione dei contenuti visual e social del festival</h5>
+                    <h4>• Il Business Plan</h4>
+                    <h5 style="padding-bottom: 5px">Un approccio alternativo alla progettazione con Francesco Caldarola</h5>
+                    <h4>• Gamification & LARP Design</h4>
+                    <h5 style="padding-bottom: 5px">MeGa Project descrivi social media ecc bla bla la</h5>
+                    <p>dicembre 2023</p>
+                    </div>
+                  </div>
+
+               <div class='item_box'> <!-- Spazio 13-->
                  <div class='item_title'>
-                   <img class='item' src='images/logo.jpg'/>
-                   <h3 class='item_name'>Cantieri Spaziali c/o Spazio13</h4></h3>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
+                   <span><h3 class='item_name'>Cantieri Spaziali</h3>
+                   <p class='item_name'>c/o Spazio13 - Bari</p></span>
                    </div>
                     <div class='item'>
-                      <h4>"Quindi, che fare?"</h4>
-                      <h5>Elementi di Progettazione Culturale con Bertram Niessen, Federica Vittori, Marilù Manta</h5>
-                      <p>(sdfvgbhe 2023)</p>
-
-                      <h4>Progettazione di Eventi (?.djfj)</h4>
-                      <h5>Gestione dei contenuti visual e social del festival</h5>
-                      <p>(agosto-settembre 2023)</p>
-
-                      <h4>Profetismo Culturale</h4>
-                      <h5>Un approccio alternativo alla progettazione con Francesco Caldarola</h5>
-                      <p>(novembre 2023)</p>
-
-                      <h4>Gamification & LARP Design</h4>
-                      <h5>MeGa Project descrivi social media ecc bla bla la</h5>
-                      <p>(agosto-settembre 2023)</p>
+                      <h4>• "Quindi, che fare? Pratiche e strumenti di progettazione per imprese culturali e creative"</h4>
+                      <h5 style="padding-bottom: 5px">Elementi di progettazione e produzione culturale con Bertram Niessen, Federica Vittori, Marilù Manta</h5>
+                      <h4>• "Organizziamo un evento, no, facciamo un progetto!"</h4>
+                      <h5 style="padding-bottom: 5px">Elementi di progettazione e realizzazione di eventi culturali con Roberta Capozucca</h5>
+                      <h4>• "Spazi di partecipazione in Puglia: Galattica - Rete Giovani Puglia"</h4>
+                      <h5 style="padding-bottom: 5px">Pratiche di creazione di spazi di partecipazione giovanile e coinvolgimento delle comunità</h5>
+                      <h4>• "Da progettismo culturale a Profetismo Culturale"</h4>
+                      <h5 style="padding-bottom: 5px">L'immaginazione profetica applicata alla progettazione culturale, con Francesco Caldarola</h5>
+                      <h4>• "Game Design e LARP (Live Action Role Play) come strumento per il Marketing Territoriale"</h4>
+                      <h5 style="padding-bottom: 5px">Elementi di Social Media Marketing, tecniche teatrali jsjgfcshdfksnshefhghdfb a cura di Me.Ga.Project</h5>
+                      <h4>• "Kaizen: il cambiamento a piccoli passi"</h4>
+                      <h5 style="padding-bottom: 5px">Conoscenza e applicazione del metodo kaizen per la realizzazione di un progetto specifico, con Marilù Colaci De Vitis</h5>
+                      <p>luglio-novembre 2023</p>
                     </div>
                </div>
 
-               <div class='item_box'>
+               <div class='item_box'> <!-- IKOS-->
                  <div class='item_title'>
-                   <img class='item' src='images/logo.jpg'/>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
                    <h3 class='item_name'>IKOS AgeForm</h4></h3>
                    </div>
                     <div class='item'>
@@ -181,12 +201,13 @@
 
              </div>
 
+<!-- Esperienze lavorative trasersali-->
              <div class='cv-section'>
                <h2 class='section_name'>Esperienze Lavorative Trasversali</h2>
 
-               <div class='item_box'>
+               <div class='item_box'> <!--Tou.Play-->
                  <div class='item_title'>
-                   <img class='item' src='images/logo.jpg'/>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
                    <h3 class='item_name'>Tou.Play</h3></div>
                  <div class='item'>
                    <h4>Coach per <strong>Balab a Scuola</strong></h4>
@@ -194,10 +215,9 @@
                    <p>(novembre 2023)</p>
                  </div>
                </div>
-
-               <div class='item_box'>
+               <div class='item_box'> <!--Festival Poesia Bitonto-->
                  <div class='item_title'>
-                   <img class='item' src='images/logo.jpg'/>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
                    <h3 class='item_name'>Festival di Poesia di Bitonto '23</h3></div>
                  <div class='item'>
                    <h4>Content creator, videomaker, social media manager</h4>
@@ -208,20 +228,186 @@
 
              </div>
 
-
+<!--Informatica e software-->
              <div class='cv-section'>
                <h2 class='section_name'>Informatica e Software</h2>
-             </div>
 
+               <!-- ___ -->
+                   <a name='skills&softwares'><div class='items_container'></a>
+                     <h2 name="skills" class='item_name'>Skills & Softwares</h2>
+
+                     <div class='skills_container'>
+                       <div class='skills_box'>
+                         <div class='skill'><h4 class='skill_name'>Web Design</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-50'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Graphics</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-95'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Product</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-95'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Interior</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-95'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>3D Rendering</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-95'></div></span>
+                         </div>
+                         <!-- ___ -->
+                         <div class='skill'><h4 class='skill_name'>UX/UI Design</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-60'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Banner Ads</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-70'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Motion Graphics</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-70'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Prog. editoriale</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-80'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Prodotto d'arredo</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-90'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>3D Printing</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-90'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Tecniche Artigianali</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-90'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Prog. architettonica</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-80'></div></span>
+                         </div>
+                       </div>
+
+               <!-- segue elenco di skills da aggiornare con le animazioni e modifica h3 in h4-->
+                       <div class='skills_box'>
+                         <div class='skill'><h4 class='skill_name'>HTML</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-90'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>CSS</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-87'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Javascript</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-60'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Wordpress</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-60'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Excel/Google Sheets</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-95'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Figma</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-80'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Animate</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-60'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>After Effects</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-60'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Premiere</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-60'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Illustrator</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-90'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Photoshop</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-95'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>InDesign</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-90'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Canva</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-60'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Blender</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-60'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>V-Ray</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-80'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Rhinoceros</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-100'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>Grasshopper</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-90'></div></span>
+                         </div>
+                         <div class='skill'><h4 class='skill_name'>AutoCad</h4>
+                           <span class='skill_bar'><div class='skillbar-transf-100'></div></span>
+                         </div>
+                       </div>
+                     </div><!--END skills_container-->
+                   </div><!--END items_container-->
+
+        </div><!--END cv_section; Informatica e software-->
+
+
+<!--Intrattenimento spettacolo performance-->
              <div class='cv-section'>
                <h3 class='section_name'>Intrattenimento, spettacolo, arti performative</h3>
-             </div>
 
+               <div class='item_box'>
+                 <div class='item_title'>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
+                   <h3 class='item_name'>Amaltea Eventi</h3>
+                 </div>
+                 <div class='item'>
+                   <h4>• Animatrice per eventi privati e pubblici</h4>
+                   <h4>• Animatrice c/o villaggi turistici</h4>
+                   <p>Contatto con tutte le età, inaugurazione negozi,
+                     maschera per spettacoli teatrali e tornei sportivi,
+                     direzione di laboratori creativi, attività di baby club,
+                     esibizioni canore e di cabaret, cosplay.</p>
+                   </div>
+               </div>
+
+               <div class='item_box'>
+                 <div class='item_title'>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
+                   <span><h3 class='item_name'>Improfficina</h3>
+                   <p class='item_name'>Teatro Osservatorio Bari</p></span>
+                 </div>
+                 <div class='item'>
+                   <h4>Corso di Improvvisazione Teatrale</h4>
+                   <h5>Attestato 1°lv base - 2°lv intermedio in corso</h5>
+                   <p>(2022 - in corso)</p>
+                 </div>
+               </div>
+
+               <div class='item_box'>
+                 <div class='item_title'>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
+                   <h3 class='item_name'>Ian Algie's</h3>
+                 </div>
+                 <div class='item'>
+                   <h4>Corso di Teatro Fisico, Maschere e Clown</h4>
+                   <p>Estate 2022</p>
+                 </div>
+               </div>
+
+               <div class='item_box'>
+                 <div class='item_title'>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
+                   <span><h3 class='item_name'>Accademia Musicale Federiciana</h3>
+                   <p class='item_name'>Andria</p></span>
+                </div>
+                 <div class='item'>
+                   <span><h4>• Performer e cantante</h4><h5>@Compagnia Teatrale “Performing Arts”</h5></span>
+                   <p>Spettacoli “Arriva lu Sand” e “Il Verso della Vita”</p></b>
+                   <p>Serie di workshop di formazione professionale (2015-2016)</p>
+                   <span><h4>• ABRSM Music Theory Grade 2</h4><p>2015</p></span>
+                   <span><h4>• Canto pop & jazz + pianoforte</h4><p>2014-2016</p></span>
+                 </div>
+               </div>
+             </div> <!-- END Intrattenimento spettacolo performance-->
+
+<!--Vendite e Marketing-->
              <div class='cv-section'>
                <h2 class='section_name'>Vendite e Marketing</h2>
                <div class='item_box'>
                  <div class='item_title'>
-                   <img class='item' src='images/logo.jpg'/>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
                    <h3 class='item_name'>Seller4You</h3></div>
                  <div class='item'>
                    <h4>Addetta alle vendite</h4>
@@ -229,12 +415,25 @@
                    <p>(febbraio-maggio 2023)</p>
                  </div>
                </div>
+               <div class='item_box'>
+                 <div class='item_title'>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
+                   <h3 class='item_name'>Fiera del Levante 2017</h3></div>
+                 <div class='item'>
+                   <h4>Promoter & responsabile merchandising</h4>
+                   <h5>Contatto con il pubblico e progettista di badges
+                     personalizzati realizzati con la tecnica della stampa 3d.
+                     Collaborazione con la startup RedPill.</h5>
+                 </div>
+               </div>
              </div>
+
+<!--Altro-->
              <div class='cv-section'>
                <h2 class='section_name'>Altro</h2>
                <div class='item_box'>
                  <div class='item_title'>
-                   <img class='item' src='images/logo.jpg'/>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
                    <h3 class='item_name'>Ripetizioni private</h3></div>
                  <div class='item'>
                    <h4>Tutor per studenti universitari indirizzo Design</h4>
@@ -245,7 +444,7 @@
                </div>
                <div class='item_box'>
                  <div class='item_title'>
-                   <img class='item' src='images/logo.jpg'/>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
                    <h3 class='item_name'>Baby-sitter</h3></div>
                  <div class='item'>
                    <h4>Baby-sitter privata</h4>
@@ -255,7 +454,7 @@
                </div>
                <div class='item_box'>
                  <div class='item_title'>
-                   <img class='item' src='images/logo.jpg'/>
+                   <img class='item' src='images/cv_loghi/logo-generico.svg'/>
                    <h3 class='item_name'>Croce Rossa Italiana</h3></div>
                  <div class='item'>
                    <h4>Volontaria divisione Pionieri</h4>
@@ -263,12 +462,12 @@
                    <p>2006-2008</p>
                  </div>
                </div>
-             </div>
+             </div> <!--END Altro-->
 
-          </div>
-        </div>
+      </div> <!--END cv_container-->
+<!-- END gallery -->
 
-          <!-- END gallery -->
+<!-- buttons -->
           <div class='buttons_list'>
             <a class='button' href='index.html'>
               <h2 class='button_text'>home</h2></a>
@@ -281,10 +480,11 @@
             <a class='button' href='mailto:vivianadavanzodesign@gmail.com' target="_blank">
               <h2 class='button_text'>&#128233; email</h2></a>
           </div>
+<!-- buttons END-->
 
-        </div> <!-- END boxes -->
-
-      </div>
+        </div> <!-- END main_content -->
+      </div> <!-- END mainbox -->
+    </div> <!-- END main_container -->
 
 <!-- footer -->
     <div class='footer_container'>
