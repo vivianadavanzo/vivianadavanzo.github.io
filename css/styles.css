@@ -220,6 +220,8 @@ h1, h2.qualifica {
  font-weight: 900;
  color: #5C45B9;
  letter-spacing: 0.1em;
+ padding:10px, 10px;
+ text-align: center;
 }
 
 .items_container {
@@ -328,11 +330,20 @@ flex-direction: column;
 .about_textcolumn_A {width: 20%; border-right: 1px dashed #b4b4b4; padding-right: 13px;}
 .about_textcolumn_B {width: 39%;}
 
-@media only screen and (max-width: 400px) and (max-width: 960px) {
+@media only screen and (max-width: 600px) and (max-width: 960px) {
   .item_about {
     flex-direction: column;  }
-  .about_textcolumn {
+  .about_textcolumn_A, .about_textcolumn_B{
       width: 100%;  }
+  .about_textcolumn_A {
+    border-right: none;
+    border-bottom: 1px dashed #b4b4b4; padding-bottom: 10px;}
+
+    h1, h2.qualifica {
+     padding:10px;
+    }
+
+
 }
 
 
