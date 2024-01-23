@@ -165,6 +165,11 @@ text-align: center;
 justify-content: center;
 color: black;
 padding-top: 4px;
+letter-spacing: 0.00em;
+}
+
+h2.sottotitolo {
+font-size: 2.3rem;
 }
 
 .discipline_container {
@@ -214,7 +219,6 @@ padding-left: 5px;
 @media screen and (max-width: 1000px) {
   .main_column_cv {width: 100%; align-self: center;  justify-content: center;}
 }
-
 
 h1, h2.qualifica {
  font-weight: 900;

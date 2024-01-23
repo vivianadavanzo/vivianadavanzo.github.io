@@ -1,4 +1,9 @@
 /* struttura box */
+
+#nomecognome {
+font-size: 4rem;
+}
+
 .cv_container {
 display: flex;
 flex-direction: row;
