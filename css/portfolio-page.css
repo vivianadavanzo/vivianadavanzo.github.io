@@ -31,6 +31,13 @@ img.portfolio {
   border-radius: 5%;
 }
 
+img.portfolio-a3 {
+  width: 33%;
+  height: 33%;
+  margin-bottom: 8px;
+  border-radius: 5%;
+}
+
 
 /* BUTTONS GALLERY*/
 
@@ -80,10 +87,12 @@ border-radius: 5%;
  .button-portfolio-gallery, .button-portfolio-gallery:link, .button-portfolio-gallery:visited,
  img.portfolio
   { width: 33%; height: 33%;}
+ img.portfolio-a3 { width: 49%; height: 49%;}
 }
 
 @media only screen and (max-width: 600px) {
   .button-portfolio-gallery, .button-portfolio-gallery:link, .button-portfolio-gallery:visited,
   img.portfolio
    { width: 49%; height: 49%;}
+  img.portfolio-a3 { width: 100%; height: 100%;}
 }
