@@ -4,8 +4,6 @@ display: flex;
 flex-direction: row;
 justify-content: center;
 flex-wrap: wrap;
-width: 100%;
-height: 100%;
 padding: 5px;
 }
 
@@ -24,8 +22,8 @@ padding: 5px;
 
 .button-gallery-big, .button-gallery-big:link, .button-gallery-big:visited
 .button-gallery-small, .button-gallery-small:link, .button-gallery-small:visited {
-width: 31%;
-height: 31%;
+width: 24%;
+height: 24%;
 margin: 4px;
 color: black;
 align-items: center;
@@ -51,11 +49,16 @@ opacity: 0.8;
 }
 
 h2.button_link_text {
-  font-size: 2.8rem;
-  margin-top: -210px;
-  margin-bottom: 143px;
+  text-shadow:
+      3px 3px 3px #fff,
+     -1px -1px 0 #fff,
+      1px -1px 0 #fff,
+      -1px 1px 0 #fff,
+       1px 1px 0 #fff;
+  font-size: 2.4rem;
   z-index: 2;
-  position: relative;
+  margin-top: -190px;
+  margin-bottom: 131px;
 }
 
 img.gallery-bis {
@@ -65,45 +68,45 @@ width: 100%;
 height: 100%;
 margin-bottom: 8px;
 border-radius: 5%;
-filter: opacity(40%);
+filter: opacity(25%);
 }
 
 
 
 /* end BUTTONS GALLERY*/
 
-@media only screen and (max-width: 920px){
+@media only screen and (max-width: 1020px){
   .button-gallery-big,
   .button-gallery-big:link,
   .button-gallery-big:visited,
   .button-gallery-big:hover,
   .button-gallery-big:active {
-    width: 48%; height: 48%;
+    width: 31%; height: 31%;
     margin-left: 2px;
     margin-right: 2px;
     margin-bottom: 8px}
   h2.button_link_text {
-    font-size: 1.8rem;
-    margin-top: -150px;
-    margin-bottom: 99px;;
+    font-size: 2.2rem;
+    margin-top: -190px;
+    margin-bottom: 132px;
 }
   img.gallery-bis {
     margin-bottom: 11px;
     }
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
   .button-gallery-big,
   .button-gallery-big:link,
   .button-gallery-big:visited,
   .button-gallery-big:hover,
   .button-gallery-big:active  {
     flex-direction: column;
-    width: 100%; height: 100%;}
+    width: 49%; height: 49%;}
   h2.button_link_text {
-    font-size: 1.2rem;
-    margin-top: -100px;
-    margin-bottom: 72px;
+    font-size: 2.1rem;
+    margin-top: -180px;
+    margin-bottom: 135px;
   }
  img.gallery-bis {
     margin-bottom: 0px;
